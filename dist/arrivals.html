@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
+
+    <title>Budgetflight | Arrivals and Departures</title>
+</head>
+
+<body>
+    <div class="box">
+        <header class="page-header">
+            <a class="page-title dark" href="index.html">Budgetflights</a>
+            <a class="btn-inline" href="login.html">Login/Signup</a>
+            <form action="#" class="search">
+                <input class="search__input" placeholder="Search Flights">
+                <button class="search__button">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mx-3"
+                        focusable="false" role="img">
+                        <title>Search</title>
+                        <circle cx="10.5" cy="10.5" r="7.5"></circle>
+                        <line x1="21" y1="21" x2="15.8" y2="15.8"></line>
+                    </svg>
+                </button>
+            </form>
+        </header>
+
+        <ul class="navigation">
+            <li> <a class="u-p-2 muted" href="about.html">About Us</a></li>
+            <li> <a class="u-p-2 muted" href="explore.html">Explore</a></li>
+            <li> <a class="u-p-2 muted" href="">Flights</a>
+                <ul>
+                    <li><a href="arrivals.html" title="Websites">Arrivals &amp; Departures</a></li>
+                    <li><a href="flight.html" title="Webshops">Flight Information</a></li>
+                    <li><a href="checkin.html" title="SEO">Check-in</a></li>
+                </ul>
+            </li>
+            <li> <a class="u-p-2 muted" href="mobile.html">Mobile Apps</a></li>
+            <li> <a class="u-p-2 muted" href="faq.html">FAQ</a></li>
+        </ul>
+    </div>
+
+    <main>
+        <div class="about_cover">
+            <div class="container">
+                <p><span>Travel with confidence here at Budgetflights.</span></p>
+            </div>
+        </div>
+        <div class="container">
+            <h2>Our flight schedule</h2>
+            <table class="pretty-table">
+                <tr>
+                    <th>Airport Code</th>
+                    <th>Airport City</th>
+                    <th>On-Time Ranking</th>
+                    <th>Flights</th>
+                    <th>Tracked</th>
+                    <th>Comp. Factor</th>
+                    <th>On time (D14)</th>
+                    <th>Delayed(15 min+)</th>
+                    <th>Average delay</th>
+                </tr>
+
+                <tr>
+                    <td>BCN</td>
+                    <td>Barcelona SP,ES</td>
+                    <td>47</td>
+                    <td>11,320</td>
+                    <td>92.69%</td>
+                    <td>99.61%</td>
+                    <td>78.56%</td>
+                    <td>28.47%</td>
+                    <td>43.3</td>
+                </tr>
+                <tr>
+                    <td>AMS</td>
+                    <td>Amsterdam, NL</td>
+                    <td>26</td>
+                    <td>18,384</td>
+                    <td>98.20%</td>
+                    <td>99.92%</td>
+                    <td>80.87%</td>
+                    <td>19.13%</td>
+                    <td>35.1</td>
+                </tr>
+                <tr>
+                    <td>CDG</td>
+                    <td>Paris FR</td>
+                    <td>42</td>
+                    <td>17,928</td>
+                    <td>89.16%</td>
+                    <td>99.33%</td>
+                    <td>74.18%</td>
+                    <td>25.82%</td>
+                    <td>38.3</td>
+
+                </tr>
+                <tr>
+                    <td>FCO</td>
+                    <td>Rome, IT</td>
+                    <td>37</td>
+                    <td>11,773</td>
+                    <td>97.34%</td>
+                    <td>99.47%</td>
+                    <td>75.79%</td>
+                    <td>24.21%</td>
+                    <td>37.6</td>
+                </tr>
+                <tr>
+                    <td>LGW</td>
+                    <td>London, GB</td>
+                    <td>30</td>
+                    <td>9,481</td>
+                    <td>99.62%</td>
+                    <td>99.71%</td>
+                    <td>79.54%</td>
+                    <td>20.46%</td>
+                    <td>43.2</td>
+                </tr>
+                <tr>
+                    <td>LHR</td>
+                    <td>London</td>
+                    <td>35</td>
+                    <td>19,012</td>
+                    <td>91.11%</td>
+                    <td>99.35%</td>
+                    <td>76.08%</td>
+                    <td>23.92%</td>
+                    <td>40.9</td>
+                </tr>
+                <tr>
+                    <td>MAD</td>
+                    <td>Madrid SP</td>
+                    <td>17</td>
+                    <td>15,379</td>
+                    <td>89.83</td>
+                    <td>99.25%</td>
+                    <td>76.08%</td>
+                    <td>17.07%</td>
+                    <td>40.0</td>
+                </tr>
+                <tr>
+                    <td>MUC</td>
+                    <td>Munich</td>
+                    <td>33</td>
+                    <td>15,888</td>
+                    <td>93.93%</td>
+                    <td>99.08%</td>
+                    <td>76.57%</td>
+                    <td>23.43%</td>
+                    <td>34.9</td>
+
+                </tr>
+                <tr>
+                    <td>FRA</td>
+                    <td>FrankFurt,DE</td>
+                    <td>34</td>
+                    <td>19,250</td>
+                    <td>93.62%</td>
+                    <td>99.23%</td>
+                    <td>76.30%</td>
+                    <td>23.70%</td>
+                    <td>32.1</td>
+
+                </tr>
+                <tr>
+                    <td>YYZ</td>
+                    <td>Toronto, ON ,CN</td>
+                    <td>31</td>
+                    <td>16,123</td>
+                    <td>94.79%</td>
+                    <td>97.73%</td>
+                    <td>78.78%</td>
+                    <td>21.22%</td>
+                    <td>51.5</td>
+                </tr>
+            </table>
+
+        </div>
+        <div class="container">
+            <h3>For more details, contact our service center!</h3>
+            <div class="u-flex">
+                <div class="u-text-center col-1-of-4">
+                    <h2>Londan Airways</h2>
+                    <strong>Oxford Street, London</strong><br />
+                    P.O.Box 8207<br />
+                    Tel: 889-5467-223<br />
+                    Fax: 889-5467-223<br />
+                    Email: support@avaition.com.uk
+                </div>
+                <div class="u-text-center col-1-of-4">
+                    <h2>Airways of Madrid</h2>
+                    <strong>Calle Carretas, Liverpool</strong><br />
+                    Near Anafield Stadium<br />
+                    Contact: 0993-4456-1223<br />
+                    fax:0993-4456-1223<br />
+                    E-mail: infomad@avaitation.com.uk
+                </div>
+                <div class="u-text-center col-1-of-4">
+                    <h2>Airways of Hull city</h2>
+                    <strong>Hull City</strong><br />
+                    Back of Hull City Stadium<br />
+                    Contact: 08897-2213-443<br />
+                    fax:08897-2213-443<br />
+                    E-mail: hull.airways@avaitation.com.uk
+                </div>
+
+            </div>
+        </div>
+        <section id="newsletter">
+            <div class="container  color">
+                <h2 class="u-text-center">Stay up-to-date</h2>
+                <p class="u-text-center">Subscribe now and receive the latest travel news.</p>
+                <form class="newsletter__form">
+                    <input type="text" placeholder="Enter firstname...">
+                    <input type="text" placeholder="Enter surname...">
+                    <input type="email" placeholder="Enter Email...">
+                    <button type="submit" class="button_1">Subscribe</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="page-footer">
+        <span>Follow us on your favorite social media</span>
+        <div class="social">
+            <a href="https://www.instagram.com/"> <img alt="insta" width="50" height="50" src="assets/instagram.png" /></a>
+            <a href="https://www.twitter.com/"> <img alt="twitter" width="50" height="50" src="assets/twitter.png" /></a>
+            <a href="https://www.facebook.com/"> <img alt="fb" width="50" height="50" src="assets/facebook.png" /> </a>
+        </div>
+        <p class="brand">Budgetflights, Copyright &copy; 2019</p>
+    </footer>
+</body>
+
+</html>
